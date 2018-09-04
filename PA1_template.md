@@ -2,6 +2,7 @@
 title: "Project1"
 output:
   html_document: 
+    fig_caption: yes
     keep_md: yes
   pdf_document: 
     keep_tex: yes
