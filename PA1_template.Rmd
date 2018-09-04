@@ -18,7 +18,7 @@ knitr::opts_chunk$set( fig.path = "figure/")
 Load, unzip and read the data
 
 ```{r}
-
+setwd("C:/Users/tiina/Desktop")
 if (!file.exists('activity.csv')) {
   unzip(zipfile = "activity.zip")
 }

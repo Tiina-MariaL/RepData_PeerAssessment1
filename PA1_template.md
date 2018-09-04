@@ -2,7 +2,6 @@
 title: "Project1"
 output:
   html_document: 
-    fig_caption: yes
     keep_md: yes
   pdf_document: 
     keep_tex: yes
@@ -19,7 +18,7 @@ knitr::opts_chunk$set( fig.path = "figure/")
 Load, unzip and read the data
 
 ```{r}
-
+setwd("C:/Users/tiina/Desktop")
 if (!file.exists('activity.csv')) {
   unzip(zipfile = "activity.zip")
 }
