@@ -1,10 +1,18 @@
 ---
 title: "Project1"
-output: html_document
+output:
+  html_document: 
+    keep_md: yes
+  pdf_document: 
+    keep_tex: yes
 ---
-
 ```{r setup, include=FALSE}
+
 knitr::opts_chunk$set(echo = TRUE)
+
+knitr::opts_chunk$set( fig.path = "figs/fig-")
+
+
 ```
 
 Load, unzip and read the data
