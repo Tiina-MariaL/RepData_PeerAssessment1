@@ -10,7 +10,7 @@ output:
 
 knitr::opts_chunk$set(echo = TRUE)
 
-knitr::opts_chunk$set( fig.path = "figs/fig-")
+knitr::opts_chunk$set( fig.path = "figure/")
 
 
 ```
@@ -18,7 +18,7 @@ knitr::opts_chunk$set( fig.path = "figs/fig-")
 Load, unzip and read the data
 
 ```{r}
-setwd("C:/Users/tiina/Desktop")
+
 if (!file.exists('activity.csv')) {
   unzip(zipfile = "activity.zip")
 }
