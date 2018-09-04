@@ -10,7 +10,7 @@ output:
 
 knitr::opts_chunk$set(echo = TRUE)
 
-knitr::opts_chunk$set( fig.path = "figure/")
+knitr::opts_chunk$set( fig.path = "~/figures")
 
 
 ```
