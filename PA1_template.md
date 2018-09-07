@@ -11,7 +11,7 @@ keep_md: yes
 
 knitr::opts_chunk$set(echo = TRUE)
 
-knitr::opts_chunk$set( fig.path = "figs/fig-")
+knitr::opts_chunk$set( fig.path = "figure/")
 
 ```
 Load, unzip and read the data
