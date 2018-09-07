@@ -1,9 +1,19 @@
 ---
 title: "Project1"
+output:
 
+html_document:
+
+keep_md: yes
 
 ```
+```{r setup, include=FALSE}
 
+knitr::opts_chunk$set(echo = TRUE)
+
+knitr::opts_chunk$set( fig.path = "figs/fig-")
+
+```
 Load, unzip and read the data
 
 ```{r}
