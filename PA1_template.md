@@ -43,7 +43,7 @@ qplot(daily_steps, binwidth = 1000, xlab = "Total number of steps daily")
 mean(daily_steps, na.rm = TRUE)
 
 ```
-![](figures/unnamed-chunk-1)
+![](figure/unnamed-chunk-3-1.png)
 
 3. Calculate and report the mean and median of the total number of steps taken per day.
 ```{r}
@@ -59,7 +59,7 @@ names(mean_5minutes)<-c("interval","mean")
 plot(mean_5minutes$interval, mean_5minutes$mean,type="l",col="red",lwd=2,xlab="Interval",ylab="Average number of steps", main="Time series of the average number of steps /5 minutes")
 
 ```
-
+![](figure/unnamed-chunk-5-1.png)
 2. Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 ```{r}
 mean_5minutes[which.max(mean_5minutes$mean),]
@@ -96,7 +96,7 @@ qplot(daily_steps_filled, binwidth = 1000, xlab = "Total number of steps daily")
 mean(daily_steps_filled, na.rm = TRUE)
 median(daily_steps_filled,na.rm=TRUE)
 ```
-
+![](figure/unnamed-chunk-10-1.png)
 ##Are there differences in activity patterns between weekdays and weekends?
 1. Create a new factor variable in the dataset with two levels – “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.
 ```{r}
@@ -118,3 +118,4 @@ averages <- aggregate(steps ~ interval + day, data = Filled_activity, mean)
 ggplot(averages, aes(interval, steps)) + geom_line() + facet_grid(day ~ .) + 
     xlab("5-minute interval") + ylab("Number of steps")
 ```
+![](figure/unnamed-chunk-12-1.png)
