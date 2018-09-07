@@ -3,8 +3,7 @@ title: "Project1"
 output:
   html_document: 
     keep_md: yes
-  pdf_document: 
-    keep_tex: yes
+  
 ---
 ```{r setup, include=FALSE}
 
