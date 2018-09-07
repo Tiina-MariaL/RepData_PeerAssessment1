@@ -33,7 +33,7 @@ qplot(daily_steps, binwidth = 1000, xlab = "Total number of steps daily")
 mean(daily_steps, na.rm = TRUE)
 
 ```
-![tähän kuva](img scr="figures/unnamed-chunk-1.png")
+![](figures/unnamed-chunk-1)
 
 3. Calculate and report the mean and median of the total number of steps taken per day.
 ```{r}
