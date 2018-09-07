@@ -1,15 +1,5 @@
 ---
 title: "Project1"
-output:
-  html_document: 
-    keep_md: no
-  
----
-```{r setup, include=FALSE}
-
-knitr::opts_chunk$set(echo = TRUE)
-
-knitr::opts_chunk$set( fig.path = "~/figures")
 
 
 ```
