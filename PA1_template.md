@@ -2,7 +2,7 @@
 title: "Project1"
 output:
   html_document: 
-    keep_md: yes
+    keep_md: no
   
 ---
 ```{r setup, include=FALSE}
